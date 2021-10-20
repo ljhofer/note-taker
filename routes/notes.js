@@ -14,7 +14,9 @@ notes.get("/", (req, res) => {
 //POST route for adding notes data
 notes.post("/", (req, res) => {
     if (req.body) {
-
+        
+        newID = uuidv4();
+        req.body["id"] = newID; 
         noteJson.push(req.body);
         // noteJson.jso
         fs.writeFile('./db/db.json', JSON.stringify(noteJson), (err) => {
