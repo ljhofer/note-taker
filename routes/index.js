@@ -10,4 +10,5 @@ const app = express();
 //Initializes notes route
 app.use("/notes", notesRouter);
 
+//Makes app available for exporting
 module.exports = app;

@@ -64,5 +64,5 @@ notes.delete("/:id", (req, res) => {
 
 })
 
-
+// Makes notes available for exporting
 module.exports = notes;

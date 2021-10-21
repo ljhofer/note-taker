@@ -1,9 +1,9 @@
-// TODO: Not exactly sure -- maybe require in the routes and the store.js here??
-
+// Calls packages required for the app
 const express = require("express");
 const app = express();
 const path = require("path");
 
+// Defines the PORT that will be used
 const PORT = process.env.PORT || 3001;
 
 const apiRoutes = require("./routes/index.js");
@@ -28,7 +28,7 @@ app.get("*", (req, res) => {
   
 
 
-
+//Listener for PORT
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT}`)
 );

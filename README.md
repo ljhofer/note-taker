@@ -6,8 +6,7 @@ Bootcamp Homework #11
 Bootcamp Homework #10
 
 ## Description 
-I have created a command line application that can be used to write and save notes. The uses starts by clicking on the "Get Started" button and then is taken to a second page where the can choose to look at an existing note or add a new note. 
-<!--Add in here once we get the delete function working  -->
+I have created a command line application that can be used to write and save notes. The uses starts by clicking on the "Get Started" button and then is taken to a second page where the can choose to look at an existing note, delete a note, and add a new note. 
     
 ## Table of Contents
 
@@ -16,6 +15,7 @@ I have created a command line application that can be used to write and save not
 - [License](#license)
 - [Contributions](#contributions)
 - [Link](#link) 
+- [Technologies](#technologies)
 - [Questions](#questions)
 
 ## Installation
@@ -24,12 +24,12 @@ This application requires Node and users should run "npm install" in their comma
 ## Usage
 Here is a screen shot of the landing page for the app:
 
-![Screen shot of landing page](./assets/images/main_page.png)
+![Screen shot of landing page](./public/assets/images/main_page.png)
 
 
-<!-- Add in a second screen shot -->
+Here is a screen shot of the notes page for the app:
 
-
+![Screen shot of notes page](./public/assets/images/notes_page.png)
 
 ## License
 This project licensed under the [MIT License](https://opensource.org/licenses/MIT).
@@ -39,6 +39,9 @@ Please contact me at <ljhofer@gmail.com> to discuss contributions.
 
 ## Link
 <!-- Link to Heroku -->
+
+## Technologies
+The program uses HTML, CSS, Bootstrap, JavaScript, Node, Express 
 
 ## Questions
 Please email any questions to <ljhofer@gmail.com> or reference my [GitHub profile](https://github.com/ljhofer). 
